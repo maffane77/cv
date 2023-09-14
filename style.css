@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E0D1F8;
+    font-family: 'Montserrat';
+}
+
+nav {
+    outline: auto;
+    outline-color: black;
+    background-color: skyblue;
+    display: flex;
+    justify-content: right;
+}
+
+nav a {
+    color: black;
+    padding: 10px;
+}
+nav a:hover {
+    color: blue;
+}
+
+footer {
+    outline: auto;
+    outline-color: black;
+    background-color: skyblue;
+    display: flex;
+    justify-content: right;
+}
+
+footer a {
+    color: black;
+    padding: 10px;
+}
+footer a:hover {
+    color: blue;
+}
+
+.header1 {
+    background-image: url(images/SkyBackground.jpg);
+    background-color: #B1EBD2;
+    text-align: center;
+    padding: 1px;
+    font-family: 'Arizonia';
+    font-size: larger;
+    color: black;
+}
+
+.header2 {
+    background-color: #E0D1F8;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Montserrat';
+    font-size: large;
+    color: teal;
+}
+
+.header2 a {
+    text-decoration: none;
+    color: cyan
+}
+
+.header2 a:hover {
+    color: blue
+}
+
+hr {
+    border-width: 1px;
+    border-color: crimson;
+}
+
+.headshot {
+    border-radius: 40px;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.classCard {
+    background-color: rgb(233, 158, 158);
+    padding-top: 5px;
+    width: 300px;
+    margin: 20px;
+    height: 400px;
+    filter: drop-shadow(30px 10px 4px #ec6157ee);
+}
+
+.Languages {
+    display:grid;
+    grid-template-columns: auto;
+}
+
+.Skills {
+    display:grid;
+    grid-template-columns: auto;
+}
+
+.Leadership {
+    display:grid;
+    grid-template-columns: auto;
+}
+
+.parentContainer {
+    align-items: center;
+    display: flex;
+    padding-bottom: 80px;
+}
+
+.contactCard {
+    display: flex;
+    align-items: center;
+    height: 600px;
+    flex-direction: column;
+    background-color: lightblue;
+    width: 500px;
+    padding: 20px;
+    margin: 50px;
+    border: thick double black;
+}
+
+.input {
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    background-color:  #E0D1F8;
+    border: 5;
+    border-radius: 10px;
+    outline: none;
+}
+textarea {
+    border: 5cap;
+    align-items: center;;
+    padding: 20px;
+    background-color:  #E0D1F8;
+    border-radius: 10px;
+    outline: none;
+}
+
